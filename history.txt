@@ -1,0 +1,896 @@
+    1  ls
+    2  clear
+    3  python =V
+    4  python -V
+    5  clear
+    6  ls -a
+    7  ls
+    8  cd /
+    9  ls
+   10  cd home
+   11  ls
+   12  cd ~
+   13  ls
+   14  git --version
+   15  python3 -version
+   16  python3 --version
+   17  gcc --version
+   18  gcc
+   19  git init
+   20  clear
+   21  git branch
+   22  ls
+   23  git config --global user.name "duncanram"
+   24  git config --global user.email "duncan.ram@gmail.com"
+   25  git config --global credential.helper 'store --file ~/.my_cred'
+   26  ls
+   27  ls -a
+   28  clear
+   29  mkdir git-basic-exercises
+   30  cd git-basic-exercises
+   31  git init
+   32  ls -a
+   33  git status
+   34  touch README.md
+   35  git status
+   36  git log
+   37  git add
+   38  git add .
+   39  git status
+   40  git commit -m "initial commit"
+   41  git log
+   42  q
+   43  nano README.md
+   44  cat README.md
+   45  clear
+   46  git status
+   47  git add .
+   48  git commit -m "second commit"
+   49  vi README.md 
+   50  git add .
+   51  git commit -m "third commit"
+   52  git log
+   53  clear
+   54  git log
+   55  git checkout git checkout f42fe9e15a0ede6cacaef6914eb9a23cdbd79404
+   56  git checkout f42fe9e15a0ede6cacaef6914eb9a23cdbd79404
+   57  git checkout
+   58  f42fe9e15a0ede6cacaef6914eb9a23cdbd79404
+   59  clear
+   60  git checkout f42fe9e15a0ede6cacaef6914eb9a23cdbd79404
+   61  cat README.md
+   62  git branch
+   63  git branch milkshake-flavours
+   64  git branch
+   65  git checkout milkshake-flavours
+   66  git branch
+   67  vi milkshakes.md
+   68  git status
+   69  git add .
+   70  git commit -m "added initial flavours"
+   71  git log
+   72  git checkout master
+   73  git checkout main
+   74  clear
+   75  git checkout main
+   76  git checkout master
+   77  clear
+   78  git branch
+   79  git branch history
+   80  git checkout history
+   81  git log
+   82  git branch
+   83  history > history.txt
+   84  ls
+   85  git add .
+   86  git commit -m"added history"
+   87  git log
+   88  git checkout milkshake-flavours 
+   89  git log
+   90  ls
+   91  vi README.md 
+   92  git add .
+   93  git commit -m"random readme changes"
+   94  git checkout history 
+   95  ls
+   96  cat README.md 
+   97  rm README.md
+   98  echo "booya" > README.md
+   99  git add .
+  100  git commit -m "rewrote readme"
+  101  git checkout master 
+  102  ls
+  103  git log
+  104  git checkout history
+  105  ls
+  106  git log
+  107  clear
+  108  git checkout main
+  109  git checkout master 
+  110  git merge milkshake-flavours
+  111  vi README.md 
+  112  git add README.md
+  113  git commit -m "Resolve merge conflict in README.md"
+  114  git merge milkshake-flavours
+  115  ls
+  116  git log
+  117  clear
+  118  git checkout history
+  119  git log
+  120  clear
+  121  git checkout history 
+  122  git merge master 
+  123  vi README.md 
+  124  git add README.md
+  125  git commit -m "2nd Resolve merge conflict in README.md"
+  126  git log
+  127  clear
+  128  git checkout master 
+  129  git log
+  130  clear
+  131  git remote add origin https://github.com/duncanram/git-basic-exercises.git
+  132  git branch -M main
+  133  git push -u origin main
+  134  git remote add origin https://github.com/duncanram/git-basic-exercises.git
+  135  git branch -M milkshake-flavours
+  136  git push -u origin milkshake-flavours
+  137  git branch -M history 
+  138  git push -u origin history
+  139  clear
+  140  pwd
+  141  cd ../
+  142  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  143  ls
+  144  cd a-repo-to-clone/
+  145  git branch -a
+  146  git checkout a-branch-with-a-few-commits
+  147  git remote -v
+  148  git log
+  149  cd ..
+  150  ls
+  151  cd git-basic-exercises/
+  152  git log
+  153  clear
+  154  cd
+  155  mkdir this-will-be-another-repo
+  156  cd this-will-be-another-repo/
+  157  git init
+  158  touch README.md
+  159  ls
+  160  cd ..
+  161  ld
+  162  ls
+  163  cd git-basic-exercises/
+  164  git log
+  165  clear
+  166  touch ignore-me.db
+  167  git status
+  168  nano .gitignore
+  169  git status
+  170  mkdir large-directory-that-should-be-local-only
+  171  cd large-directory-that-should-be-local-only
+  172  git status
+  173  clear
+  174  nano .gitignore
+  175  git status
+  176  git add .gitignore
+  177  git commit -m "added .gitignore"
+  178  git push
+  179  clear
+  180  git clone git@github.com:Umuzi-org/TodaniDuncan-Ramuntshi-219-level-1-programming-katas-python.git
+  181  clear
+  182  git clone https://git@github.com:Umuzi-org/TodaniDuncan-Ramuntshi-219-level-1-programming-katas-python.git
+  183  ls
+  184  git clone https://github.com/Umuzi-org/TodaniDuncan-Ramuntshi-219-level-1-programming-katas-python
+  185  ls
+  186  cd TodaniDuncan-Ramuntshi-219-level-1-programming-katas-python/
+  187  ls
+  188  clear
+  189  ls
+  190  git branch
+  191  git checkout main
+  192  git pull
+  193  git checkout -b task/1
+  194  git branch
+  195  ls
+  196  cd TodaniDuncan-Ramuntshi-219-level-1-programming-katas-python/
+  197  ls
+  198  clear
+  199  git branch
+  200  vi task1.py
+  201  git add .
+  202  git commit -m"Funct to print sum of multiples of 3 & 5"
+  203  git push
+  204  git push --set-upstream origin task/1
+  205  ls
+  206  git add .
+  207  git commit -m"task1 1st pull request"
+  208  rm task1
+  209  ls
+  210  rm task1.py 
+  211  vi task1.py
+  212  git add .
+  213  git commit -m"task1 1st pull request"
+  214  rm task1.py 
+  215  git add .
+  216  git commit -m"task1 delete"
+  217  git push
+  218  vi task1.py
+  219  git add .
+  220  git commit -m"task1 1st pull request"
+  221  git push
+  222  ls
+  223  ls -a
+  224  git checkout main
+  225  git log
+  226  git status
+  227  clear
+  228  git checkout -b task/2
+  229  vi task2.py
+  230  git add .
+  231  git commit -m"task2 1st pull request"
+  232  git push
+  233  git push --set-upstream origin task/2
+  234  git push
+  235  ls
+  236  clear
+  237  ls
+  238  git checkout main
+  239  git checkout -b task/3
+  240  ls
+  241  vi task3.py
+  242  git add .
+  243  git commit -m"task3 1st pull request"
+  244  git push --set-upstream origin task/3
+  245  clear
+  246  ls
+  247  git checkout -b task/4
+  248  ls
+  249  git branch
+  250  ls
+  251  git checkout task/3
+  252  ls
+  253  cat task3.py 
+  254  git branch
+  255  git checkout task/4
+  256  ls
+  257  git branch -D task/4
+  258  cd ..
+  259  ls
+  260  cd TodaniDuncan-Ramuntshi-219-level-1-programming-katas-python/
+  261  ls
+  262  git branch
+  263  git checkout main
+  264  ls
+  265  git branch
+  266  git branch -D task/4
+  267  git branch
+  268  git checkout -b task/4
+  269  ls
+  270  cat README.md 
+  271  clear
+  272  vi task4.py
+  273  cat task4.py 
+  274  git add .
+  275  git commit -m"task4 1st pull request"
+  276  git push --set-upstream origin task/3
+  277  git push --set-upstream origin task/4
+  278  clear
+  279  ls
+  280  git checkout main
+  281  git branch
+  282  git checkout -b task/5
+  283  ls
+  284  vi task5.py
+  285  git add .
+  286  git commit -m"task5 1st pull request"
+  287  git push --set-upstream origin task/5
+  288  git checkout main
+  289  git checkout -b task/6
+  290  ls
+  291  clear
+  292  vi task6.py
+  293  git add .
+  294  git commit -m"task6 1st pull request"
+  295  git push --set-upstream origin task/5
+  296  git push --set-upstream origin task/6
+  297  clear
+  298  git checkout main
+  299  git checkout -b task/7
+  300  vi task7.py
+  301  git add .
+  302  git commit -m"task7 1st pull request"
+  303  git push --set-upstream origin task/7
+  304  ls
+  305  vi task7.py 
+  306  ls
+  307  cd TodaniDuncan-Ramuntshi-219-level-1-programming-katas-python/
+  308  git checkout main
+  309  git checkout task/7
+  310  vi task7.py 
+  311  git add .
+  312  git commit -m"task7 1st pull request(modified)"
+  313  git push
+  314  ls
+  315  cd TodaniDuncan-Ramuntshi-219-level-1-programming-katas-python/
+  316  ls
+  317  git checkout main
+  318  ls
+  319  git checkout task/1
+  320  ls
+  321  vi task1.py 
+  322  clear
+  323  cleaer
+  324  clear
+  325  git add .
+  326  git commit -m"task1 2nd pull request(modified)"
+  327  git push
+  328  vi task2.py 
+  329  git add .
+  330  git commit -m"task2 2nd pull request(modified)"
+  331  git push
+  332  clear
+  333  git checkout task/2
+  334  git checkout task/3
+  335  vi task3.py 
+  336  git add .
+  337  git commit -m"task3 2nd pull request(modified)"
+  338  git push
+  339  git checkout task/4
+  340  vi task4.py 
+  341  git add .
+  342  git commit -m"task4 2nd pull request(modified)"
+  343  git push
+  344  git checkout task/5
+  345  vi task5.py 
+  346  git add .
+  347  git commit -m"task5 2nd pull request(modified)"
+  348  git push
+  349  git checkout task/6
+  350  vi task6.py 
+  351  git add .
+  352  git commit -m"task6 2nd pull request(modified)"
+  353  git push
+  354  git checkout task/7
+  355  vi task7.py 
+  356  git add .
+  357  git commit -m"task7 2nd pull request(modified)"
+  358  git push
+  359  vi task7.py
+  360  ls
+  361  git branch
+  362  ls
+  363  vi task7.py
+  364  ls
+  365  git checkout task/6
+  366  cat task6.py 
+  367  git checkout task/7
+  368  ls
+  369  vi task7.py
+  370  git add .
+  371  git commit -m"task7 2nd pull request(modified)"
+  372  git push
+  373  git status
+  374  git log
+  375  clear
+  376  ls
+  377  ls .a
+  378  ls -a
+  379  cd /
+  380  ls
+  381  cd D:\projects\coding\alx
+  382  cd home
+  383  ls
+  384  ls -a
+  385  cd ~
+  386  ls
+  387  clear
+  388  ls
+  389  git clone https://github.com/duncanram/alx-low_level_programming
+  390  ls
+  391  cd root
+  392  cd #
+  393  cd ..
+  394  ls
+  395  cd ~
+  396  ls
+  397  git clone https://github.com/duncanram/alx-system_engineering-devops
+  398  ls
+  399  git clone https://github.com/duncanram/alx-higher_level_programming
+  400  clear
+  401  ls
+  402  cd alx-low_level_programming/
+  403  ls
+  404  git add .
+  405  git commit -m"Mistakenly deleted"
+  406  git pull
+  407  ls
+  408  git add .
+  409  git commit -m"Mistakenly deleted"
+  410  git add *
+  411  git commit -m"Mistakenly deleted"
+  412  ls
+  413  cd TodaniDuncan-Ramuntshi-223-person-python/
+  414  ls
+  415  rm python.py
+  416  ls
+  417  git branch person
+  418  git checkout person
+  419  ls
+  420  vi person.py
+  421  vi person.py 
+  422  clear
+  423  ls
+  424  cd ..
+  425  ls
+  426  cd TodaniDuncan-Ramuntshi-223-person-python/
+  427  ls
+  428  git add .
+  429  git commit -m"Person task - 2st commit(created a branch)"
+  430  git push
+  431  git push --set-upstream origin person
+  432  ls
+  433  git checkout main
+  434  ls
+  435  rm python.py 
+  436  git add .
+  437  git commit -m"moved my code to a branch"
+  438  git push
+  439  ls
+  440  cd ..
+  441  ls
+  442  cd TodaniDuncan-Ramuntshi-219-level-1-programming-katas-python/
+  443  ls
+  444  git checkout task/1
+  445  ls
+  446  vi task1.py 
+  447  git add .
+  448  git commit -m"task1 2nd pull request"
+  449  git push
+  450  vi task1.py 
+  451  git checkout task/2
+  452  vi task2.py 
+  453  git checkout task/1
+  454  git branch
+  455  ls
+  456  vi task2.py
+  457  git add .
+  458  git commit -m"task2 3rd pull request"
+  459  git push
+  460  git checkout task/1
+  461  ls
+  462  vi task1.py
+  463  clear
+  464  ls
+  465  git add .
+  466  git commit -m"task1 3rd pull request"
+  467  git push
+  468  git checkout task/3
+  469  clear
+  470  vi task3.py
+  471  git add .
+  472  git commit -m"task3 3rd pull request"
+  473  git push
+  474  git checkout task/4
+  475  vi task4.py
+  476  git add .
+  477  git commit -m"task4 3rd pull request"
+  478  git push
+  479  git checkout task/5
+  480  vi task5.py
+  481  git add .
+  482  git commit -m"task5 3rd pull request"
+  483  git push
+  484  git checkout task/6
+  485  vi task6.py
+  486  git add .
+  487  git commit -m"task6 3rd pull request"
+  488  git push
+  489  git checkout task/7
+  490  vi task7.py
+  491  git add .
+  492  git commit -m"task7 3rd pull request"
+  493  git push
+  494  clear
+  495  cd ..
+  496  pytest --version
+  497  pip install pytest
+  498  ls
+  499  cd TodaniDuncan-Ramuntshi-223-person-python/
+  500  ls
+  501  git checkout person 
+  502  git branch
+  503  ls
+  504  vi person.py 
+  505  git add .
+  506  git commit -m"Person task - 3rd commit(code revised)"
+  507  git push
+  508  ls
+  509  cd TodaniDuncan-Ramuntshi-223-person-python/
+  510  ls
+  511  vi person.py
+  512  python person.py
+  513  python3 person.py
+  514  ls
+  515  ls -a
+  516  git add .
+  517  git commit -m"4th commit(added build_interests func)"
+  518  git push
+  519  vi person.py 
+  520  close
+  521  ls
+  522  cd TodaniDuncan-Ramuntshi-223-person-python/
+  523  ls
+  524  vi person.py 
+  525  python3 person.py
+  526  git add .
+  527  git commit -m"5th commit(Added =None built-in constant)"
+  528  git push
+  529  ls
+  530  cd TodaniDuncan-Ramuntshi-219-level-1-programming-katas-python/
+  531  ls
+  532  git branch
+  533  git checkout task/1
+  534  vi task1.py 
+  535  git add .
+  536  git commit -m"4th commit(added function call)"
+  537  git push
+  538  git checkout task/2
+  539  vi task2.py 
+  540  git add .
+  541  git commit -m"4th commit(added function call)"
+  542  git push
+  543  clear
+  544  git checkout task/3
+  545  vi tas3.py 
+  546  rm tas3.py 
+  547  vi task3.py 
+  548  git add .
+  549  git commit -m"4th commit(added function call)"
+  550  git push
+  551  git checkout task/4
+  552  vi task4.py 
+  553  git add .
+  554  git commit -m"4th commit(added function call)"
+  555  git push
+  556  clear
+  557  git checkout task/5
+  558  vi task5.py 
+  559  git add .
+  560  git commit -m"4th commit(added function call)"
+  561  git push
+  562  git checkout task/6
+  563  vi task6.py 
+  564  clear
+  565  git add .
+  566  git commit -m"4th commit(added function call)"
+  567  git push
+  568  git checkout task/7
+  569  vi task7.py 
+  570  git add .
+  571  git commit -m"4th commit()"
+  572  git push
+  573  cd ..
+  574  cd TodaniDuncan-Ramuntshi-223-person-python/
+  575  ls
+  576  clear
+  577  ls
+  578  python3 person.py 
+  579  git branch
+  580  vi person.py 
+  581  git add .
+  582  git commit -m"6th commit(fixed interests string)"
+  583  git push
+  584  vi person.py 
+  585  git add .
+  586  git commit -m"6th commit(fixed interests string & used black)"
+  587  git push
+  588  pip install black
+  589  apt install python3-pip
+  590  pip install black
+  591  black person.py 
+  592  vi person.py
+  593  git add .
+  594  git commit -m"6th commit(fixed interests string & used black)"
+  595  git push
+  596  clear
+  597  python3 person.py 
+  598  vi person.py
+  599  black person.py 
+  600  git add .
+  601  git commit -m"7th commit(fixed punctuation)"
+  602  git push
+  603  vi person.py
+  604  git commit -m"7th commit(fixed punctuation)"
+  605  git add .
+  606  git commit -m"8th commit(fixed punctuation)"
+  607  git push
+  608  cd ..
+  609  ls
+  610  cd git-basic-exercises/
+  611  ls
+  612  cat ignore-me.db 
+  613  cd large-directory-that-should-be-local-only/
+  614  ls
+  615  clear
+  616  /root/.hushlogin
+  617  ls
+  618  cd a-repo-to-clone/
+  619  ls
+  620  cat README.md 
+  621  cd ..
+  622  cd git-basic-exercises/
+  623  ls
+  624  cd a-repo-to-clone
+  625  cd ../
+  626  ls
+  627  cd a-repo-to-clone
+  628  git branch
+  629  git log
+  630  git branch -a
+  631  git remote -v
+  632  git log
+  633  cd ..
+  634  ls
+  635  cd git-basic-exercises/
+  636  git log
+  637  clear
+  638  cd ..
+  639  ls
+  640  cd ~
+  641  cd /
+  642  ls
+  643  cd home/
+  644  ls
+  645  mkdir this-will-be-another-repo
+  646  ls
+  647  cd this-will-be-another-repo/
+  648  git init
+  649  touch README.md
+  650  clear
+  651  cd ..
+  652  ls
+  653  cd ~
+  654  cd git-basic-exercises/
+  655  git log
+  656  clear
+  657  ls
+  658  git status
+  659  nano .gitignore
+  660  ls
+  661  ls -a
+  662  vi .gitignore
+  663  git status
+  664  clear
+  665  ls
+  666  cd large-directory-that-should-be-local-only/
+  667  ls
+  668  vi README.md
+  669  cd ...
+  670  clear
+  671  pwd
+  672  cd ...
+  673  cd ..
+  674  ls
+  675  git status
+  676  nano .gitignore
+  677  git status
+  678  git add .gitignore
+  679  git commit -m "added .gitignore"
+  680  clear
+  681  git push
+  682  pwd
+  683  git pull
+  684  ls
+  685  clear
+  686  ls
+  687  rm -r git-basic-exercises
+  688  ls
+  689  rm -r a-repo-to-clone this-will-be-another-repo
+  690  ls
+  691  clear
+  692  mkdir git-basic-exercises
+  693  cd git-basic-exercises
+  694  git init
+  695  touch README.md
+  696  git add README.md
+  697  git commit -m "Initial commit"
+  698  nano README.md
+  699  git commit -m "Second commit"
+  700  nano README.md
+  701  git commit -m "Third commit"
+  702  git branch milkshake-flavours
+  703  clear
+  704  git checkout milkshake-flavours
+  705  touch milkshakes.md
+  706  nano milkshakes.md
+  707  git add milkshakes.md
+  708  git commit -m "Added initial milkshake flavors"
+  709  git checkout main
+  710  git branch
+  711  git checkout master 
+  712  git merge milkshake-flavours
+  713  cd ..
+  714  ls
+  715  clear
+  716  ls
+  717  rm -r git-basic-exercises/
+  718  ls
+  719  clear
+  720  mkdir git-basic-exercises
+  721  cd git-basic-exercises
+  722  ls -a
+  723  git init
+  724  ls -a
+  725  clear
+  726  touch README.md
+  727  git add README.md
+  728  git commit -m "Initial commit"
+  729  git log
+  730  cd ..
+  731  git config --global init.defaultBranch main
+  732  ls
+  733  cd git-basic-exercises/
+  734  ls
+  735  git branch -m master main
+  736  git branch
+  737  git push -u origin main
+  738  clear
+  739  git branch
+  740  ls
+  741  git log
+  742  clear
+  743  git status
+  744  l
+  745  cd ../..
+  746  ls
+  747  cd ~
+  748  ls
+  749  rm -r git-basic-exercises/
+  750  clear
+  751  ls
+  752  mkdir git-basic-exercises
+  753  cd git-basic-exercises
+  754  git init
+  755  touch README.md
+  756  git add README.md
+  757  git commit -m "Initial commit"
+  758  git status
+  759  nano README.md
+  760  git commit -m "Second commit"
+  761  git status
+  762  clear
+  763  git commit -m "Second commit"
+  764  git add .
+  765  git commit -m "Second commit"
+  766  nano README.md
+  767  git commit -m "third commit"
+  768  git add .
+  769  git commit -m "third commit"
+  770  git log
+  771  clear
+  772  git branch milkshake-flavours
+  773  git checkout milkshake-flavours
+  774  nano milkshakes.md
+  775  git add .
+  776  git commit -m "Added initial milkshake flavors"
+  777  git checkout main
+  778  git checkout milkshake-flavours
+  779  git log
+  780  clear
+  781  ls
+  782  git checkout main
+  783  ls
+  784  git log
+  785  clear
+  786  git branch
+  787  git branch history
+  788  git checkout history 
+  789  git log
+  790  history > history.txt
+  791  ls
+  792  cat history.txt 
+  793  git add .
+  794  git commit -m "added history"
+  795  git log
+  796  git checkout milkshake-flavours 
+  797  git log
+  798  ls
+  799  nano README.md 
+  800  git add .
+  801  git commit -m "random readme changes"
+  802  git checkout history 
+  803  clear
+  804  cat README.md 
+  805  rm README.md
+  806  echo "booya" > README.md
+  807  git add .
+  808  git commit -m"rewrote readme"
+  809  git checkout main
+  810  git checkout history 
+  811  git log
+  812  clear
+  813  git checkout main
+  814  git merge milkshake-flavours
+  815  ls
+  816  git log
+  817  clear
+  818  git checkout history 
+  819  git merge main
+  820  git checkout main 
+  821  git branch
+  822  nano README.md 
+  823  git checkout main 
+  824  git merge main
+  825  ls
+  826  nano README.md 
+  827  git branch main 
+  828  git checkout main 
+  829  ls
+  830  vi README.md 
+  831  git add .
+  832  git commit -m"fixed conflict"
+  833  git branch
+  834  git checkout main 
+  835  git log
+  836  git checkout history 
+  837  git log
+  838  clear
+  839  ls
+  840  git checkout main 
+  841  git log
+  842  ls
+  843  cat README.md 
+  844  clear
+  845  git branch 
+  846  git remote add origin https://github.com/duncanram/git-basic-exercises.git
+  847  git branch -M main
+  848  git push -u origin main
+  849  git checkout history 
+  850  git remote add origin https://github.com/duncanram/git-basic-exercises.git
+  851  git branch -M main
+  852  git push -u origin history
+  853  clear
+  854  git branch
+  855  git checkout history
+  856  ls
+  857  git remote add origin https://github.com/duncanram/git-basic-exercises.git
+  858  git branch -M main
+  859  git push -u origin main
+  860  clear
+  861  git branch
+  862  git log
+  863  clear
+  864  cd ..
+  865  ls
+  866  cd git-basic-exercises/
+  867  git branch 
+  868  cd ..
+  869  ls
+  870  rm git-basic-exercises/
+  871  rm -r git-basic-exercises/
+  872  clear
+  873  ls
+  874  mkdir git-basic-exercises
+  875  cd git-basic-exercises
+  876  git init
+  877  touch README.md
+  878  git add README.md
+  879  git commit -m "Initial commit"
+  880  nano README.md
+  881  git add .
+  882  git commit -m "second commit"
+  883  nano README.md
+  884  git add .
+  885  git commit -m "third commit"
+  886  git branch
+  887  git branch milkshake-flavours
+  888  git checkout milkshake-flavours
+  889  clear
+  890  nano milkshakes.md
+  891  git add milkshakes.md
+  892  git commit -m "added initial flavours"
+  893  git checkout main
+  894  git branch history
+  895  git checkout history 
+  896  history > history.txt
